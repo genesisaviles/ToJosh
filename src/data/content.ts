@@ -6,7 +6,7 @@ export const content = {
     date: "December 1, 2026",
     introText: "This birthday gift is not something to open today, but something we will live together.",
     ctaText: "Open Your Invitation",
-    placeholderCoverImage: "/Split_image_lake_mountains_beach_202607120045.jpeg"
+    placeholderCoverImage: "/ToJosh/Split_image_lake_mountains_beach_202607120045.jpeg"
   },
 
   // 2. Birthday Letter
@@ -17,7 +17,7 @@ export const content = {
       "I wanted to craft an experience where time slows down, where we can simply be together, and where every detail is designed for us.",
       "Consider this your formal invitation to the chapter we have been waiting for."
     ],
-    placeholderImage: "/Man_and_woman_at_table_202607120058.jpeg"
+    placeholderImage: "/ToJosh/Man_and_woman_at_table_202607120058.jpeg"
   },
 
   // 3. Our Story (New Section)
@@ -56,7 +56,7 @@ export const content = {
       "This is an invitation into my world. I want to share the landscapes, the culture, the incredible food, and the warmth of the people who make this place so special to me.",
       "I can't wait to watch the sunset with you after a day of discovering somewhere new."
     ],
-    placeholderImage: "/pexels-photo-13501101-13501101.webp"
+    placeholderImage: "/ToJosh/pexels-photo-13501101-13501101.webp"
   },
 
   // 5. Trip Overview
@@ -65,7 +65,7 @@ export const content = {
     arrivalDate: "December 1, 2026",
     duration: "Two unforgettable weeks together.",
     baseLocation: "Rohrmoser, San José",
-    placeholderImage: "/Girl_and_boy_hugging_beach_202607120133.jpeg"
+    placeholderImage: "/ToJosh/Girl_and_boy_hugging_beach_202607120133.jpeg"
   },
 
   // 6. Flights
@@ -82,7 +82,7 @@ export const content = {
       arrivalTime: "December 1, 2026",
       price: 659.42,
       bookingLink: "[ADD LINK]",
-      placeholderImage: "/departure.png"
+      placeholderImage: "/ToJosh/departure.png"
     },
     {
       id: "return",
@@ -96,10 +96,10 @@ export const content = {
       arrivalTime: "December 15, 2026",
       price: 0,
       bookingLink: "[ADD LINK]",
-      placeholderImage: "/return.png"
+      placeholderImage: "/ToJosh/return.png"
     }
   ],
-  priceSummaryImage: "/price summary.png",
+  priceSummaryImage: "/ToJosh/price summary.png",
   flightsClosingText: "Every mile brings you closer to me.",
 
   // 7. Rental Car
@@ -115,7 +115,7 @@ export const content = {
     pickupLocation: "SJO - Juan Santamaria Int. Airport",
     dropoffLocation: "SJO - Juan Santamaria Int. Airport",
     reservationLink: "https://www.adobecar.com/en/adobe-checkout/",
-    placeholderImage: "/car.png"
+    placeholderImage: "/ToJosh/car.png"
   },
 
   // 8. Accommodations
@@ -134,7 +134,7 @@ export const content = {
       total: 500,
       link: "https://es-l.airbnb.com/rooms/1591562569743940482?check_in=2026-12-01&check_out=2026-12-06&guests=1&adults=3&s=67&unique_share_id=7103e443-8f5b-40dd-9f20-d7451f9d6acd",
       amenities: [],
-      placeholderImages: ["/airbnb1.png"]
+      placeholderImages: ["/ToJosh/airbnb1.png"]
     },
     {
       id: "airbnb-2",
@@ -150,7 +150,7 @@ export const content = {
       total: 294.83,
       link: "https://www.airbnb.co.cr/rooms/878944951681058504?adults=3&check_in=2026-12-06&check_out=2026-12-09&search_mode=regular_search&amenities%5B%5D=4&source_impression_id=p3_1783847713_P3ihqCWcniCPnk5-&previous_page_section_name=1000&federated_search_id=b36c5e51-e269-43de-baa0-5fb525f5a9b0",
       amenities: [],
-      placeholderImages: ["/airbnguanacaste1.png"]
+      placeholderImages: ["/ToJosh/airbnguanacaste1.png"]
     },
     {
       id: "airbnb-3",
@@ -166,7 +166,7 @@ export const content = {
       total: 320.38,
       link: "https://www.airbnb.co.cr/rooms/1553983255011630274?adults=3&check_in=2026-12-09&check_out=2026-12-12&search_mode=regular_search&source_impression_id=p3_1783848567_P3teKTq9GeMZM2Ul&previous_page_section_name=1000&federated_search_id=7826b150-46a2-43d6-b713-87494fedf71e",
       amenities: [],
-      placeholderImages: ["/airbnbpuertoviejo.png"]
+      placeholderImages: ["/ToJosh/airbnbpuertoviejo.png"]
     },
     {
       id: "airbnb-4",
@@ -182,7 +182,7 @@ export const content = {
       total: 255,
       link: "https://www.airbnb.co.cr/rooms/1715569042454896939?adults=3&check_in=2026-12-12&check_out=2026-12-15&guests=3&search_mode=regular_search&source_impression_id=p3_1783849073_P3wJYQVZvsiEQVim&previous_page_section_name=1000&federated_search_id=94599bdb-6ede-406c-8087-09f6ede00f70",
       amenities: [],
-      placeholderImages: ["/lastairbnb.png"]
+      placeholderImages: ["/ToJosh/lastairbnb.png"]
     }
   ],
 
@@ -199,7 +199,7 @@ export const content = {
         date: "",
         mapLink: "",
         notes: "15 USD total",
-        placeholderImage: "/sanjoseactivity1.jpeg"
+        placeholderImage: "/ToJosh/sanjoseactivity1.jpeg"
       },
       {
         id: "sj-2",
@@ -211,7 +211,7 @@ export const content = {
         date: "",
         mapLink: "",
         notes: "22 USD total",
-        placeholderImage: "/sanjoseactivity2.jpg"
+        placeholderImage: "/ToJosh/sanjoseactivity2.jpg"
       },
       {
         id: "sj-3",
@@ -223,7 +223,7 @@ export const content = {
         date: "",
         mapLink: "",
         notes: "30 USD total",
-        placeholderImage: "/sanjoseactivity3.jpg"
+        placeholderImage: "/ToJosh/sanjoseactivity3.jpg"
       },
       {
         id: "sj-4",
@@ -235,7 +235,7 @@ export const content = {
         date: "",
         mapLink: "",
         notes: "28 USD total",
-        placeholderImage: "/sanjoseactivity4.jpeg"
+        placeholderImage: "/ToJosh/sanjoseactivity4.jpeg"
       }
     ],
     guanacaste: [
@@ -249,7 +249,7 @@ export const content = {
         date: "Dec 6 - Dec 9",
         mapLink: "",
         notes: "",
-        placeholderImage: "/guanacasteactivity1.jpg"
+        placeholderImage: "/ToJosh/guanacasteactivity1.jpg"
       },
       {
         id: "g-2",
@@ -261,7 +261,7 @@ export const content = {
         date: "Dec 6 - Dec 9",
         mapLink: "",
         notes: "Count 3 people",
-        placeholderImage: "/guanacasteactivity2.webp"
+        placeholderImage: "/ToJosh/guanacasteactivity2.webp"
       },
       {
         id: "g-3",
@@ -273,7 +273,7 @@ export const content = {
         date: "Dec 6 - Dec 9",
         mapLink: "",
         notes: "",
-        placeholderImage: "/guanacasteactivity3.jpeg"
+        placeholderImage: "/ToJosh/guanacasteactivity3.jpeg"
       }
     ],
     limon: [
@@ -287,7 +287,7 @@ export const content = {
         date: "Dec 9 - Dec 13",
         mapLink: "",
         notes: "",
-        placeholderImage: "/limonactivity1.jpeg"
+        placeholderImage: "/ToJosh/limonactivity1.jpeg"
       },
       {
         id: "l-2",
@@ -299,7 +299,7 @@ export const content = {
         date: "Dec 9 - Dec 13",
         mapLink: "",
         notes: "Count 3 people",
-        placeholderImage: "/limonactivity2.jpg"
+        placeholderImage: "/ToJosh/limonactivity2.jpg"
       },
       {
         id: "l-3",
@@ -311,7 +311,7 @@ export const content = {
         date: "Dec 9 - Dec 13",
         mapLink: "",
         notes: "",
-        placeholderImage: "/limonactivy3.jpeg"
+        placeholderImage: "/ToJosh/limonactivy3.jpeg"
       }
     ]
   },
@@ -339,7 +339,7 @@ export const content = {
       cuisine: "Costa Rican",
       category: "Typical food",
       recommendedDish: "",
-      placeholderImage: "/restaurantetiquicia.jpg"
+      placeholderImage: "/ToJosh/restaurantetiquicia.jpg"
     },
     {
       id: "rest-2",
@@ -347,7 +347,7 @@ export const content = {
       cuisine: "Costa Rican",
       category: "Typical food",
       recommendedDish: "",
-      placeholderImage: "/restaurantenuestratierra.jpeg"
+      placeholderImage: "/ToJosh/restaurantenuestratierra.jpeg"
     },
     {
       id: "rest-3",
@@ -355,7 +355,7 @@ export const content = {
       cuisine: "Mexican",
       category: "Mexican food",
       recommendedDish: "",
-      placeholderImage: "/latacopedia.jpeg"
+      placeholderImage: "/ToJosh/latacopedia.jpeg"
     },
     {
       id: "rest-4",
@@ -363,7 +363,7 @@ export const content = {
       cuisine: "Seafood",
       category: "Seafood",
       recommendedDish: "",
-      placeholderImage: "/delfinesconamor.webp"
+      placeholderImage: "/ToJosh/delfinesconamor.webp"
     }
   ],
 
@@ -373,25 +373,25 @@ export const content = {
       id: "shop-1",
       name: "Automercado",
       category: "Groceries",
-      placeholderImage: "/automercado.jpg"
+      placeholderImage: "/ToJosh/automercado.jpg"
     },
     {
       id: "shop-2",
       name: "Walmart",
       category: "Groceries",
-      placeholderImage: "/walmart.jpg"
+      placeholderImage: "/ToJosh/walmart.jpg"
     },
     {
       id: "shop-3",
       name: "Multiplaza Escazú",
       category: "Shopping",
-      placeholderImage: "/shoping.jpg"
+      placeholderImage: "/ToJosh/shoping.jpg"
     },
     {
       id: "shop-4",
       name: "Mercado Central",
       category: "Souvenirs",
-      placeholderImage: "/mercadocentral.png"
+      placeholderImage: "/ToJosh/mercadocentral.png"
     }
   ],
 
