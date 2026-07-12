@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Montserrat:wght@300;400;500&family=Great+Vibes&display=swap');
+
+:root {
+  /* Elegant Luxury Palette */
+  --color-ivory: #FFFFF0;
+  --color-cream: #FFFDD0;
+  --color-champagne: #F7E7CE;
+  --color-sage: #800020; /* Wine Red (replaces green) */
+  --color-sage-dark: #5c0017; /* Darker Wine Red */
+  --color-dusty-rose: #DCAE96;
+  --color-gold: #800020; /* Wine Red (replaces yellow/gold) */
+  --color-text-dark: #2C3E50;
+  --color-text-light: #5A6B5D;
+  --color-white: #FFFFFF;
+  
+  /* Typography */
+  --font-script: 'Great Vibes', cursive;
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'Montserrat', sans-serif;
+  
+  /* Layout */
+  --max-width: 1200px;
+  --section-padding: 8rem 2rem;
+  --border-radius: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-ivory);
+  color: var(--color-text-dark);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography Classes */
+.font-script {
+  font-family: var(--font-script);
+  font-size: 3rem;
+  font-weight: normal;
+  color: var(--color-gold);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  color: var(--color-text-dark);
+}
+
+h1 {
+  font-size: 4rem;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--color-text-light);
+  margin-bottom: 1rem;
+}
+
+/* Utility Classes */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section {
+  padding: var(--section-padding);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Image Placeholders */
+.image-placeholder {
+  background-color: var(--color-champagne);
+  border: 1px solid var(--color-dusty-rose);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-light);
+  font-family: var(--font-body);
+  border-radius: var(--border-radius);
+  min-height: 300px;
+  width: 100%;
+}
+
+/* Buttons */
+.btn-primary {
+  display: inline-block;
+  background-color: var(--color-sage);
+  color: var(--color-white);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-sage-dark);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 2rem; }
+  .section { padding: 4rem 1rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
