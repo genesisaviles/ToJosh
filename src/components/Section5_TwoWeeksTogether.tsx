@@ -32,7 +32,7 @@ export default function Section5_TwoWeeksTogether() {
             </div>
           </div>
 
-          {data.placeholderImage.startsWith('/') ? (
+          {data.placeholderImage.startsWith('./') ? (
             <img 
               src={data.placeholderImage} 
               alt="Two Weeks Together" 

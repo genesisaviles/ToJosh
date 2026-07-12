@@ -32,7 +32,7 @@ export default function Section6_Flights() {
                   {flight.label}
                 </h3>
                 
-                {flight.placeholderImage && flight.placeholderImage.startsWith('/') && (
+                {flight.placeholderImage && flight.placeholderImage.startsWith('./') && (
                   <div style={{ marginBottom: '2rem' }}>
                     <img src={flight.placeholderImage} alt={flight.label} style={{ width: '100%', borderRadius: 'var(--border-radius)', display: 'block', boxShadow: '0 10px 20px rgba(0,0,0,0.05)' }} />
                   </div>

@@ -60,7 +60,7 @@ export default function Section1_Cover() {
             <h3 style={{ fontSize: '1.5rem', color: 'var(--color-sage)', marginBottom: '0.5rem' }}>{data.subtitle}</h3>
             <p style={{ fontStyle: 'italic', marginBottom: '3rem' }}>{data.date}</p>
             
-            {data.placeholderCoverImage.startsWith('/') ? (
+            {data.placeholderCoverImage.startsWith('./') ? (
               <img 
                 src={data.placeholderCoverImage} 
                 alt="Cover" 

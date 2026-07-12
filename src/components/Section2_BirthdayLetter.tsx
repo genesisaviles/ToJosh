@@ -26,7 +26,7 @@ export default function Section2_BirthdayLetter() {
             ))}
           </div>
 
-          {data.placeholderImage.startsWith('/') ? (
+          {data.placeholderImage.startsWith('./') ? (
             <img 
               src={data.placeholderImage} 
               alt="Together" 

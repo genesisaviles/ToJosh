@@ -26,7 +26,7 @@ export default function Section11_Restaurants() {
                 <Utensils size={20} color="var(--color-gold)" />
               </div>
               
-              {rest.placeholderImage.startsWith('/') ? (
+              {rest.placeholderImage.startsWith('./') ? (
                 <div style={{ marginBottom: '1.5rem', overflow: 'hidden', borderRadius: 'var(--border-radius)', boxShadow: '0 5px 15px rgba(0,0,0,0.1)' }}>
                   <img src={rest.placeholderImage} alt={rest.name} style={{ width: '100%', height: '200px', objectFit: 'cover', display: 'block' }} />
                 </div>

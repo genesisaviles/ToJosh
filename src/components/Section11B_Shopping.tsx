@@ -26,7 +26,7 @@ export default function Section11B_Shopping() {
                 <ShoppingBag size={18} color="var(--color-gold)" />
               </div>
               
-              {shop.placeholderImage.startsWith('/') ? (
+              {shop.placeholderImage.startsWith('./') ? (
                 <div style={{ marginBottom: '1.5rem', overflow: 'hidden', borderRadius: 'var(--border-radius)', boxShadow: '0 5px 15px rgba(0,0,0,0.1)' }}>
                   <img src={shop.placeholderImage} alt={shop.name} style={{ width: '100%', height: '150px', objectFit: 'cover', display: 'block' }} />
                 </div>

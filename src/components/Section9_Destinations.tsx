@@ -30,7 +30,7 @@ export default function Section9_Destinations() {
                     transition={{ duration: 1, delay: idx * 0.2 }}
                     style={{ backgroundColor: 'var(--color-white)', borderRadius: 'var(--border-radius)', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.05)' }}
                   >
-                    {dest.placeholderImage.startsWith('/') ? (
+                    {dest.placeholderImage.startsWith('./') ? (
                        <img src={dest.placeholderImage} alt={dest.name} style={{ width: '100%', height: '250px', objectFit: 'cover' }} />
                     ) : (
                       <div className="image-placeholder" style={{ minHeight: '250px', borderRadius: '0' }}>

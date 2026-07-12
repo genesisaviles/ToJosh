@@ -72,7 +72,7 @@ export default function Section8_OurHome() {
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem' }}>
                 {data.placeholderImages.map((img: string, idx: number) => (
                   <React.Fragment key={idx}>
-                    {img.startsWith('/') ? (
+                    {img.startsWith('./') ? (
                        <img src={img} alt={`${data.location} view ${idx + 1}`} style={{ width: '100%', height: '300px', objectFit: 'cover', borderRadius: 'var(--border-radius)', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }} />
                     ) : (
                       <div className="image-placeholder" style={{ minHeight: '300px' }}>

@@ -21,7 +21,7 @@ export default function Section4_CostaRicaReveal() {
             {data.subtitle}
           </h3>
 
-          {data.placeholderImage.startsWith('/') ? (
+          {data.placeholderImage.startsWith('./') ? (
             <img 
               src={data.placeholderImage} 
               alt="Costa Rica" 

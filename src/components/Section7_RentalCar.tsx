@@ -25,7 +25,7 @@ export default function Section7_RentalCar() {
           
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '3rem', alignItems: 'center' }}>
             <div style={{ flex: '1 1 400px' }}>
-              {data.placeholderImage.startsWith('/') ? (
+              {data.placeholderImage.startsWith('./') ? (
                 <img 
                   src={data.placeholderImage} 
                   alt="Rental Car" 
